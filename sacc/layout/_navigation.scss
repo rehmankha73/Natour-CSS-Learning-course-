@@ -26,7 +26,7 @@
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     z-index: 100;
     box-shadow: 0 1rem 2rem rgba($color-black, .1);
-    transition: transform 8s cubic-bezier(.58,-0.01,.33,1.02);
+    transition: transform .8s cubic-bezier(.58,-0.01,.33,1.02);
   }
 
   &__nav {
@@ -35,7 +35,7 @@
     top: 0;
     right: 0;
     z-index: 150;
-    transition: all 8s cubic-bezier(.39,1.51,.72,.81);
+    transition: all .8s cubic-bezier(.39,1.51,.72,.81);
     white-space: nowrap;
 
     opacity: 0;
