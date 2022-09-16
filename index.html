@@ -47,7 +47,7 @@
             <span class="heading-primary--sub">is where life happens</span>
         </h1>
 
-        <a href="#" class="btn btn--white btn--animated">
+        <a href="#section-tours" class="btn btn--white btn--animated">
             Discover Our Tours
         </a>
     </div>
@@ -133,7 +133,7 @@
     </section>
 
     <!--Tours-->
-    <section class="section-tours">
+    <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-lg">
             <h2 class="heading-secondary">
                 Most Popular Tours
@@ -165,7 +165,7 @@
                                 <p class="card__price-only">only</p>
                                 <p class="card__price-value">$297</p>
                             </div>
-                            <a href="#" class="btn btn--white">Book Now</a>
+                            <a href="#popup" class="btn btn--white">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                                 <div class="card__price-only">only</div>
                                 <div class="card__price-value">$497</div>
                             </div>
-                            <a href="#" class="btn btn--white">Book Now</a>
+                            <a href="#popup" class="btn btn--white">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
                                 <p class="card__price-only">only</p>
                                 <p class="card__price-value">$897</p>
                             </div>
-                            <a href="#" class="btn btn--white">Book Now</a>
+                            <a href="#popup" class="btn btn--white">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -309,12 +309,12 @@
                         </div>
 
                         <div class="form__group">
-                            <input type="text" class="form__input" placeholder="Full Name" id="name" required />
+                            <input type="text" class="form__input" placeholder="Full Name" id="name" required/>
                             <label for="name" class="form__label">Full Name</label>
                         </div>
 
                         <div class="form__group">
-                            <input type="email" class="form__input" placeholder="Email Address" id="email" required />
+                            <input type="email" class="form__input" placeholder="Email Address" id="email" required/>
                             <label for="email" class="form__label">Email Address</label>
                         </div>
 
@@ -345,7 +345,7 @@
             </div>
         </div>
     </section>
-    
+
 </main>
 
 <!--Footer-->
@@ -368,90 +368,118 @@
         </div>
         <div class="col-1-of-2">
             <p class="footer__copyright">
-                Built by <a href="#" class="footer__link">Rehman Ahmed KHan</a> for his online course <a href="#" class="footer__link">Advance scss and css</a>.
-                Copyright &copy; by Rehman Ahmed Khan. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Rehman Ahmed Khan, is of course highly appreciated!
+                Built by <a href="#" class="footer__link">Rehman Ahmed KHan</a> for his online course <a href="#"
+                                                                                                         class="footer__link">Advance
+                scss and css</a>.
+                Copyright &copy; by Rehman Ahmed Khan. You are 100% allowed to use this webpage for both personal and
+                commercial use, but NOT to claim it as your own design. A credit to the original author, Rehman Ahmed
+                Khan, is of course highly appreciated!
             </p>
         </div>
     </div>
 </footer>
-    <!--Grid System-->
-    <!--    <div class="grid-test">-->
-    <!--        <div class="row">-->
-    <!--            <div class="col-1-of-2">-->
-    <!--                col 1 of 2-->
-    <!--            </div>-->
 
-    <!--            <div class="col-1-of-2">-->
-    <!--                col 1 of 2-->
-    <!--            </div>-->
-    <!--        </div>-->
+<!--Popup-->
+<div class="popup" id="popup">
+    <div class="popup__content">
+        <div class="popup__left">
+            <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+            <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+        </div>
 
-    <!--        <div class="row">-->
-    <!--            <div class="col-1-of-3">-->
-    <!--                col 1 of 3-->
-    <!--            </div>-->
+        <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-sm">Start Booking Now</h2>
+            <h3 class="heading-tertiary u-margin-bottom-sm">Important &ndash; Please read these terms before booking.</h3>
+            <p class="popup__text">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-    <!--            <div class="col-1-of-3">-->
-    <!--                col 1 of 3-->
-    <!--            </div>-->
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            </p>
+            <a href="#" class="btn btn--green">Book now</a>
+        </div>
+    </div>
+</div>
 
-    <!--            <div class="col-1-of-3">-->
-    <!--                col 1 of 3-->
-    <!--            </div>-->
-    <!--        </div>-->
 
-    <!--        <div class="row">-->
-    <!--            <div class="col-1-of-3">-->
-    <!--                col 1 of 3-->
-    <!--            </div>-->
+<!--Grid System-->
+<!--    <div class="grid-test">-->
+<!--        <div class="row">-->
+<!--            <div class="col-1-of-2">-->
+<!--                col 1 of 2-->
+<!--            </div>-->
 
-    <!--            <div class="col-2-of-3">-->
-    <!--                col 2 of 3-->
-    <!--            </div>-->
-    <!--        </div>-->
+<!--            <div class="col-1-of-2">-->
+<!--                col 1 of 2-->
+<!--            </div>-->
+<!--        </div>-->
 
-    <!--        <div class="row">-->
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-1-of-3">-->
+<!--                col 1 of 3-->
+<!--            </div>-->
 
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
+<!--            <div class="col-1-of-3">-->
+<!--                col 1 of 3-->
+<!--            </div>-->
 
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
+<!--            <div class="col-1-of-3">-->
+<!--                col 1 of 3-->
+<!--            </div>-->
+<!--        </div>-->
 
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
-    <!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-1-of-3">-->
+<!--                col 1 of 3-->
+<!--            </div>-->
 
-    <!--        <div class="row">-->
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
+<!--            <div class="col-2-of-3">-->
+<!--                col 2 of 3-->
+<!--            </div>-->
+<!--        </div>-->
 
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
 
-    <!--            <div class="col-2-of-4">-->
-    <!--                col 2 of 4-->
-    <!--            </div>-->
-    <!--        </div>-->
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
 
-    <!--        <div class="row">-->
-    <!--            <div class="col-1-of-4">-->
-    <!--                col 1 of 4-->
-    <!--            </div>-->
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
 
-    <!--            <div class="col-3-of-4">-->
-    <!--                col 3 of 4-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
+
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
+
+<!--            <div class="col-2-of-4">-->
+<!--                col 2 of 4-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--            <div class="col-1-of-4">-->
+<!--                col 1 of 4-->
+<!--            </div>-->
+
+<!--            <div class="col-3-of-4">-->
+<!--                col 3 of 4-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 </main>
 </body>
 </html>
